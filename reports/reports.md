@@ -161,7 +161,10 @@ Próximo aprimoramento:
 
 ### 2) Existe sazonalidade na distribuição dos canais?
 Foi gerada a série mensal da proporção de canais por mês (share mensal):
-- no intervalo analisado, não houve variação relevante
+- no intervalo analisado, a distribuição proporcional dos canais permanece estável ao longo do tempo, 
+não indicando evidência clara de sazonalidade
+- no entanto, considerando volume mensal, há sim uma variação observada no `notebooks/01_eda_overview.ipynb`
+- isto indica uma sazonalidade de volume, mas a proporção por canal é estável
 
 Outputs:
 - `artifacts/eda/q2_channel_share_by_month.csv`
