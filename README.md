@@ -1,4 +1,4 @@
-# desafio_logcomex — Pipeline de classificação em cascata (Stage A / Stage B)
+# channel_predict — Pipeline de classificação em cascata (Stage A / Stage B)
 
 Este repositório contém uma pipeline de **engenharia de features + treino + avaliação** para prever o *canal* (`VERDE`, `AMARELO`, `VERMELHO`, `CINZA`) usando uma **arquitetura em cascata**:
 
@@ -36,7 +36,7 @@ A pasta `artifacts/` concentra tudo que é gerado (modelos, métricas, plots, an
 No diretório do projeto:
 
 ```
-git clone https://github.com/ds-kenwatanabe/desafio_logcomex.git
+git clone https://github.com/ds-kenwatanabe/channel_predict.git
 ```
 
 ### 2) Instalar dependências
