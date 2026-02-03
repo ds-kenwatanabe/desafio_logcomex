@@ -236,7 +236,7 @@ Foram aplicadas (e são recomendadas em conjunto):
 - reduz complexidade do multiclasse e melhora foco em risco
 
 **Estratégia B — Reamostragem / pesos**
-- `class_weight="balanced"` e/ou oversampling no Stage A
+- `class_weight="balanced"` e/ou oversampling no Stage A (oversampling é utilizado por padrão)
 - aumenta a sensibilidade para a classe rara
 - tuning de threshold complementa para controlar FP
 
