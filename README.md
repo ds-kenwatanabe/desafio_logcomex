@@ -146,7 +146,8 @@ Arquivos típicos em `artifacts/analysis/`:
 
 ### EDA e perguntas do desafio
 Foi feito um notebook `notebooks/01_eda_overview.ipynb` com uma análise prévia para verificar informações gerais do dataset.
-Além disso para as perguntas específicas, foi feito um script a fim de repondê-las.
+Além disso para as perguntas específicas, foi feito um script a fim de respondê-las.
+O arquivo `reports/reports.md` detalha as respostas do desafio e o processo de desenvolvimento do modelo.
 
 ```python
 python -m scripts.eda_answers --config configs/cascade.yaml
