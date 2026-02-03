@@ -1,0 +1,20 @@
+2026-02-03 09:48:49,526 | INFO | Starting train_cascade
+2026-02-03 09:48:49,526 | INFO | Config file: (none; using defaults)
+2026-02-03 09:48:49,526 | INFO | Data path: data\sample_data.parquet
+2026-02-03 09:48:49,526 | INFO | Data exists: True
+2026-02-03 09:48:49,526 | INFO | Cutoff: 2024-10-01
+2026-02-03 09:48:49,526 | INFO | Artifacts dir: artifacts
+2026-02-03 09:48:49,526 | INFO | Plots dir: artifacts\plots
+2026-02-03 09:48:49,526 | INFO | Logs dir: logs
+2026-02-03 09:48:50,228 | INFO | Train rows=83237 | Valid rows=15463
+2026-02-03 09:48:50,235 | INFO | Train class balance: {'VERDE': 80760, 'VERMELHO': 1714, 'AMARELO': 725, 'CINZA': 38}
+2026-02-03 09:48:50,236 | INFO | Valid class balance: {'VERDE': 14998, 'VERMELHO': 330, 'AMARELO': 127, 'CINZA': 8}
+2026-02-03 09:48:50,905 | INFO | Train matrix: (83237, 92) | Valid matrix: (15463, 92)
+2026-02-03 09:48:50,918 | INFO | Using red_gate_threshold=0.4975 (source=threshold_recommended.json)
+2026-02-03 09:49:47,721 | INFO | Stage A accuracy=0.1714
+2026-02-03 09:49:47,736 | INFO | Stage B accuracy=0.5723
+2026-02-03 09:49:47,971 | INFO | E2E accuracy=0.1053
+2026-02-03 09:49:49,494 | INFO | Saved: artifacts\preprocess.joblib
+2026-02-03 09:49:49,494 | INFO | Saved: artifacts\model_cascade.joblib
+2026-02-03 09:49:49,494 | INFO | Saved: artifacts\metrics_valid.json
+2026-02-03 09:49:49,494 | INFO | Saved plots/csv in: artifacts\plots

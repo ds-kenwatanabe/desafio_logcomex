@@ -1,0 +1,15 @@
+{
+  "label_green": "VERDE",
+  "label_yellow": "AMARELO",
+  "label_red": "VERMELHO",
+  "label_gray": "CINZA",
+  "oversample_red_gate": true,
+  "red_gate_sampler": "random_over",
+  "random_state": 42,
+  "red_gate_model": "logreg",
+  "yg_model": "linearsvc",
+  "red_gate_threshold": 0.49748743718592964,
+  "logreg_C": 1.0,
+  "logreg_max_iter": 8000,
+  "logreg_tol": 0.001
+}

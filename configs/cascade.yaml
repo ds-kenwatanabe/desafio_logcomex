@@ -1,0 +1,21 @@
+data:
+  path: "data/sample_data.parquet"
+
+split:
+  cutoff: "2024-10-01"
+
+preprocess:
+  date_col: "registry_date"
+  target_col: "channel"
+  positive_label: "VERMELHO"
+
+cascade:
+  oversample_red_gate: true
+  red_gate_model: "logreg"
+  yg_model: "linearsvc"
+  random_state: 42
+
+runtime:
+  artifacts_dir: "artifacts"
+  logs_dir: "logs"
+  plots_dir: "artifacts/plots"

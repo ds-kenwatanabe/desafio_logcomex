@@ -1,0 +1,17 @@
+{
+  "cutoff": "2024-10-01",
+  "train_rows": 83237,
+  "valid_rows": 15463,
+  "train_class_balance": {
+    "VERDE": 80760,
+    "VERMELHO": 1714,
+    "AMARELO": 725,
+    "CINZA": 38
+  },
+  "valid_class_balance": {
+    "VERDE": 14998,
+    "VERMELHO": 330,
+    "AMARELO": 127,
+    "CINZA": 8
+  }
+}

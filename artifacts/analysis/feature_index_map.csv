@@ -1,0 +1,93 @@
+feature_index,feature_name
+0,cat__transport_mode_pt_AEREA
+1,cat__transport_mode_pt_ENTRADA/SAÍDA FICTÍCIA
+2,cat__transport_mode_pt_FERROVIARIA
+3,cat__transport_mode_pt_MARITIMA
+4,cat__transport_mode_pt_MEIOS PRÓPRIOS
+5,cat__transport_mode_pt_POSTAL
+6,cat__transport_mode_pt_RODOVIARIA
+7,cat__transport_mode_pt_UNKNOWN
+8,cat__consignee_company_size_DEMAIS
+9,cat__consignee_company_size_EMPRESA DE PEQUENO PORTE
+10,cat__consignee_company_size_MICRO EMPRESA
+11,cat__clearance_place_entry_AEROPORTO DE BRASÍLIA
+12,cat__clearance_place_entry_AEROPORTO DE CONGONHAS
+13,cat__clearance_place_entry_AEROPORTO DE GUARULHOS
+14,cat__clearance_place_entry_AEROPORTO DE VIRACOPOS
+15,cat__clearance_place_entry_AEROPORTO DO GALEÃO
+16,cat__clearance_place_entry_PORTO DE ITAJAÍ
+17,cat__clearance_place_entry_PORTO DE PARANAGUÁ
+18,cat__clearance_place_entry_PORTO DE SALVADOR
+19,cat__clearance_place_entry_PORTO DE SANTOS
+20,cat__clearance_place_entry_PORTO DE SUAPE
+21,cat__clearance_place_entry_PORTO DE VITÓRIA
+22,cat__clearance_place_entry_PORTO DO RIO DE JANEIRO
+23,cat__clearance_place_entry_UNKNOWN
+24,cat__clearance_place_dispatch_AEROPORTO DE BRASÍLIA
+25,cat__clearance_place_dispatch_AEROPORTO DE CONGONHAS
+26,cat__clearance_place_dispatch_AEROPORTO DE GUARULHOS
+27,cat__clearance_place_dispatch_AEROPORTO DE VIRACOPOS
+28,cat__clearance_place_dispatch_AEROPORTO DO GALEÃO
+29,cat__clearance_place_dispatch_PORTO DE ITAJAÍ
+30,cat__clearance_place_dispatch_PORTO DE PARANAGUÁ
+31,cat__clearance_place_dispatch_PORTO DE SALVADOR
+32,cat__clearance_place_dispatch_PORTO DE SANTOS
+33,cat__clearance_place_dispatch_PORTO DE SUAPE
+34,cat__clearance_place_dispatch_PORTO DE VITÓRIA
+35,cat__clearance_place_dispatch_PORTO DO RIO DE JANEIRO
+36,cat__country_origin_code_105
+37,cat__country_origin_code_108
+38,cat__country_origin_code_116
+39,cat__country_origin_code_124
+40,cat__country_origin_code_132
+41,cat__country_origin_code_137
+42,cat__country_origin_code_145
+43,cat__country_origin_code_152
+44,cat__country_origin_code_158
+45,cat__country_origin_code_160
+46,cat__country_origin_code_169
+47,cat__country_origin_code_218
+48,cat__country_origin_code_221
+49,cat__country_origin_code_23
+50,cat__country_origin_code_246
+51,cat__country_origin_code_249
+52,cat__country_origin_code_275
+53,cat__country_origin_code_31
+54,cat__country_origin_code_356
+55,cat__country_origin_code_361
+56,cat__country_origin_code_364
+57,cat__country_origin_code_368
+58,cat__country_origin_code_372
+59,cat__country_origin_code_380
+60,cat__country_origin_code_386
+61,cat__country_origin_code_392
+62,cat__country_origin_code_399
+63,cat__country_origin_code_51
+64,cat__country_origin_code_643
+65,cat__country_origin_code_756
+66,cat__country_origin_code_84
+67,cat__country_origin_code_97
+68,cat__country_origin_code_UNKNOWN
+69,cat__ncm_chapter_22
+70,cat__ncm_chapter_29
+71,cat__ncm_chapter_30
+72,cat__ncm_chapter_38
+73,cat__ncm_chapter_39
+74,cat__ncm_chapter_40
+75,cat__ncm_chapter_73
+76,cat__ncm_chapter_84
+77,cat__ncm_chapter_85
+78,cat__ncm_chapter_87
+79,cat__ncm_chapter_UNKNOWN
+80,num__year
+81,num__month
+82,num__dow
+83,num__quarter
+84,num__risk_consignee_name
+85,num__cnt_consignee_name
+86,num__risk_ncm_chapter
+87,num__cnt_ncm_chapter
+88,num__risk_country_origin_code
+89,num__cnt_country_origin_code
+90,num__hist_cnt_consignee_name
+91,num__hist_cnt_ncm_chapter

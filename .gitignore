@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.pytest_cache/
+data/sample_data.parquet
+data/*.pdf
+reports/*.docx
+artifacts/*.joblib
+logs/*.log

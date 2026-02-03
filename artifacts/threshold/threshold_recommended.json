@@ -1,0 +1,60 @@
+{
+  "recommended_threshold": 0.49748743718592964,
+  "reason": "recall>=target (0.8) e menor FP",
+  "metrics_at_threshold": {
+    "recall": 0.8242424242424242,
+    "precision": 0.020881314294487946,
+    "fp": 12754,
+    "fn": 58,
+    "tp": 272,
+    "tn": 2379
+  },
+  "config_snapshot": {
+    "preprocess": {
+      "date_col": "registry_date",
+      "target_col": "channel",
+      "cat_cols_low": [
+        "transport_mode_pt",
+        "consignee_company_size"
+      ],
+      "cat_cols_mid": [
+        "clearance_place_entry",
+        "clearance_place_dispatch",
+        "country_origin_code",
+        "ncm_chapter"
+      ],
+      "high_card_cols": [
+        "consignee_name",
+        "shipper_name",
+        "document_number"
+      ],
+      "risk_group_cols": [
+        "consignee_name",
+        "ncm_chapter",
+        "country_origin_code"
+      ],
+      "agg_group_cols": [
+        "consignee_name",
+        "ncm_chapter"
+      ],
+      "positive_label": "VERMELHO"
+    },
+    "cascade": {
+      "label_green": "VERDE",
+      "label_yellow": "AMARELO",
+      "label_red": "VERMELHO",
+      "label_gray": "CINZA",
+      "oversample_red_gate": true,
+      "red_gate_sampler": "random_over",
+      "random_state": 42,
+      "red_gate_model": "logreg",
+      "yg_model": "linearsvc",
+      "red_gate_threshold": 0.5,
+      "logreg_C": 1.0,
+      "logreg_max_iter": 8000,
+      "logreg_tol": 0.001
+    },
+    "cutoff": "2024-10-01",
+    "data_path": "data/sample_data.parquet"
+  }
+}

@@ -1,0 +1,31 @@
+feature,coef,abs_coef,direction,feature_index,feature_name
+f_0,0.0103181070713717,0.0103181070713717,↑ increases RED risk,0,cat__transport_mode_pt_AEREA
+f_3,-0.0093260746311495,0.0093260746311495,↓ decreases RED risk,3,cat__transport_mode_pt_MARITIMA
+f_69,0.0054295543058946,0.0054295543058946,↑ increases RED risk,69,cat__ncm_chapter_22
+f_82,0.0047445413149122,0.0047445413149122,↑ increases RED risk,82,num__dow
+f_81,0.0045010571693989,0.0045010571693989,↑ increases RED risk,81,num__month
+f_75,-0.0033431830437972,0.0033431830437972,↓ decreases RED risk,75,cat__ncm_chapter_73
+f_57,0.0024624053198343,0.0024624053198343,↑ increases RED risk,57,cat__country_origin_code_368
+f_72,0.0023769239817311,0.0023769239817311,↑ increases RED risk,72,cat__ncm_chapter_38
+f_77,-0.0022881049702933,0.0022881049702933,↓ decreases RED risk,77,cat__ncm_chapter_85
+f_8,-0.0019725146395767,0.0019725146395767,↓ decreases RED risk,8,cat__consignee_company_size_DEMAIS
+f_9,0.0018475622591417,0.0018475622591417,↑ increases RED risk,9,cat__consignee_company_size_EMPRESA DE PEQUENO PORTE
+f_83,0.0017787417337202,0.0017787417337202,↑ increases RED risk,83,num__quarter
+f_56,0.0017152267221388,0.0017152267221388,↑ increases RED risk,56,cat__country_origin_code_364
+f_54,0.0016215133024351,0.0016215133024351,↑ increases RED risk,54,cat__country_origin_code_356
+f_26,0.0015149510842593,0.0015149510842593,↑ increases RED risk,26,cat__clearance_place_dispatch_AEROPORTO DE GUARULHOS
+f_44,-0.0014024166211615,0.0014024166211615,↓ decreases RED risk,44,cat__country_origin_code_158
+f_11,0.0012924541934155,0.0012924541934155,↑ increases RED risk,11,cat__clearance_place_entry_AEROPORTO DE BRASÍLIA
+f_71,-0.0012455521690108,0.0012455521690108,↓ decreases RED risk,71,cat__ncm_chapter_30
+f_67,0.0011208612840953,0.0011208612840953,↑ increases RED risk,67,cat__country_origin_code_97
+f_74,0.0011158168649021,0.0011158168649021,↑ increases RED risk,74,cat__ncm_chapter_40
+f_37,-0.001058780760448,0.001058780760448,↓ decreases RED risk,37,cat__country_origin_code_108
+f_53,-0.0010358501819667,0.0010358501819667,↓ decreases RED risk,53,cat__country_origin_code_31
+f_70,-0.000968508610412,0.000968508610412,↓ decreases RED risk,70,cat__ncm_chapter_29
+f_65,0.0009195127286839,0.0009195127286839,↑ increases RED risk,65,cat__country_origin_code_756
+f_19,-0.0008928892251596,0.0008928892251596,↓ decreases RED risk,19,cat__clearance_place_entry_PORTO DE SANTOS
+f_28,-0.0008844446834294,0.0008844446834294,↓ decreases RED risk,28,cat__clearance_place_dispatch_AEROPORTO DO GALEÃO
+f_49,-0.0008232413613198,0.0008232413613198,↓ decreases RED risk,49,cat__country_origin_code_23
+f_6,-0.0007133496711389,0.0007133496711389,↓ decreases RED risk,6,cat__transport_mode_pt_RODOVIARIA
+f_51,0.0007093972655954,0.0007093972655954,↑ increases RED risk,51,cat__country_origin_code_249
+f_73,-0.0006647194195446,0.0006647194195446,↓ decreases RED risk,73,cat__ncm_chapter_39

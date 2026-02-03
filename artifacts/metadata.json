@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-02-03T12:49:48.058165+00:00",
+  "data_path": "data\\sample_data.parquet",
+  "train_matrix_shape": [
+    83237,
+    92
+  ],
+  "valid_matrix_shape": [
+    15463,
+    92
+  ],
+  "data_fingerprint": {
+    "train": "a161f870a2da4f33",
+    "valid": "bdb191bbaa699668"
+  },
+  "env": {
+    "python_version": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\ollho\\pyProjects\\desafio_logcomex\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-11-10.0.26100-SP0"
+  },
+  "libs": {
+    "numpy": "2.4.1",
+    "pandas": "3.0.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8"
+  }
+}

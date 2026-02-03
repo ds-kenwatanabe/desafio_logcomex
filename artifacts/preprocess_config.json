@@ -1,0 +1,29 @@
+{
+  "date_col": "registry_date",
+  "target_col": "channel",
+  "cat_cols_low": [
+    "transport_mode_pt",
+    "consignee_company_size"
+  ],
+  "cat_cols_mid": [
+    "clearance_place_entry",
+    "clearance_place_dispatch",
+    "country_origin_code",
+    "ncm_chapter"
+  ],
+  "high_card_cols": [
+    "consignee_name",
+    "shipper_name",
+    "document_number"
+  ],
+  "risk_group_cols": [
+    "consignee_name",
+    "ncm_chapter",
+    "country_origin_code"
+  ],
+  "agg_group_cols": [
+    "consignee_name",
+    "ncm_chapter"
+  ],
+  "positive_label": "VERMELHO"
+}

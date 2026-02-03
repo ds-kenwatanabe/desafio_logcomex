@@ -1,0 +1,93 @@
+feature,j,importance_mean,importance_std,feature_index,feature_name
+f_89,89,0.0187878787878788,0.0084414474407176,89,num__cnt_country_origin_code
+f_83,83,0.0175757575757576,0.0022676711434993,83,num__quarter
+f_82,82,0.0163636363636364,0.0045353422869986,82,num__dow
+f_91,91,0.0139393939393939,0.0041105030200759,91,num__hist_cnt_ncm_chapter
+f_87,87,0.0084848484848485,0.0022676711434993,87,num__cnt_ncm_chapter
+f_69,69,0.0054545454545454,0.0012121212121212,69,cat__ncm_chapter_22
+f_26,26,0.0036363636363636,0.0012121212121212,26,cat__clearance_place_dispatch_AEROPORTO DE GUARULHOS
+f_75,75,0.0036363636363636,0.0029690784761008,75,cat__ncm_chapter_73
+f_81,81,0.003030303030303,0.0131390808416235,81,num__month
+f_12,12,0.003030303030303,0.0,12,cat__clearance_place_entry_AEROPORTO DE CONGONHAS
+f_13,13,0.0024242424242424,0.0022676711434993,13,cat__clearance_place_entry_AEROPORTO DE GUARULHOS
+f_18,18,0.0018181818181818,0.0014845392380504,18,cat__clearance_place_entry_PORTO DE SALVADOR
+f_77,77,0.0012121212121212,0.0041105030200759,77,cat__ncm_chapter_85
+f_47,47,0.0012121212121212,0.0014845392380504,47,cat__country_origin_code_218
+f_76,76,0.0012121212121212,0.0014845392380504,76,cat__ncm_chapter_84
+f_43,43,0.0006060606060606,0.0012121212121212,43,cat__country_origin_code_152
+f_30,30,0.0006060606060606,0.0012121212121212,30,cat__clearance_place_dispatch_PORTO DE PARANAGUÁ
+f_37,37,0.0006060606060606,0.0012121212121212,37,cat__country_origin_code_108
+f_63,63,0.0006060606060606,0.0012121212121212,63,cat__country_origin_code_51
+f_36,36,0.0006060606060606,0.0012121212121212,36,cat__country_origin_code_105
+f_20,20,0.0006060606060606,0.0012121212121212,20,cat__clearance_place_entry_PORTO DE SUAPE
+f_90,90,0.0006060606060606,0.0012121212121212,90,num__hist_cnt_consignee_name
+f_85,85,0.0006060606060606,0.0012121212121212,85,num__cnt_consignee_name
+f_73,73,0.0006060606060606,0.0012121212121212,73,cat__ncm_chapter_39
+f_71,71,0.0006060606060606,0.0012121212121212,71,cat__ncm_chapter_30
+f_9,9,0.0,0.0,9,cat__consignee_company_size_EMPRESA DE PEQUENO PORTE
+f_6,6,0.0,0.0,6,cat__transport_mode_pt_RODOVIARIA
+f_10,10,0.0,0.0,10,cat__consignee_company_size_MICRO EMPRESA
+f_62,62,0.0,0.0,62,cat__country_origin_code_399
+f_61,61,0.0,0.0,61,cat__country_origin_code_392
+f_78,78,0.0,0.0,78,cat__ncm_chapter_87
+f_58,58,0.0,0.0,58,cat__country_origin_code_372
+f_56,56,0.0,0.0,56,cat__country_origin_code_364
+f_27,27,0.0,0.0,27,cat__clearance_place_dispatch_AEROPORTO DE VIRACOPOS
+f_24,24,0.0,0.0,24,cat__clearance_place_dispatch_AEROPORTO DE BRASÍLIA
+f_25,25,0.0,0.0,25,cat__clearance_place_dispatch_AEROPORTO DE CONGONHAS
+f_14,14,0.0,0.0,14,cat__clearance_place_entry_AEROPORTO DE VIRACOPOS
+f_15,15,0.0,0.0,15,cat__clearance_place_entry_AEROPORTO DO GALEÃO
+f_16,16,0.0,0.0,16,cat__clearance_place_entry_PORTO DE ITAJAÍ
+f_7,7,0.0,0.0,7,cat__transport_mode_pt_UNKNOWN
+f_22,22,0.0,0.0,22,cat__clearance_place_entry_PORTO DO RIO DE JANEIRO
+f_23,23,0.0,0.0,23,cat__clearance_place_entry_UNKNOWN
+f_17,17,0.0,0.0,17,cat__clearance_place_entry_PORTO DE PARANAGUÁ
+f_19,19,0.0,0.0,19,cat__clearance_place_entry_PORTO DE SANTOS
+f_4,4,0.0,0.0,4,cat__transport_mode_pt_MEIOS PRÓPRIOS
+f_5,5,0.0,0.0,5,cat__transport_mode_pt_POSTAL
+f_2,2,0.0,0.0,2,cat__transport_mode_pt_FERROVIARIA
+f_1,1,0.0,0.0,1,cat__transport_mode_pt_ENTRADA/SAÍDA FICTÍCIA
+f_42,42,0.0,0.0,42,cat__country_origin_code_145
+f_32,32,0.0,0.0,32,cat__clearance_place_dispatch_PORTO DE SANTOS
+f_29,29,0.0,0.0,29,cat__clearance_place_dispatch_PORTO DE ITAJAÍ
+f_28,28,0.0,0.0,28,cat__clearance_place_dispatch_AEROPORTO DO GALEÃO
+f_35,35,0.0,0.0,35,cat__clearance_place_dispatch_PORTO DO RIO DE JANEIRO
+f_34,34,0.0,0.0,34,cat__clearance_place_dispatch_PORTO DE VITÓRIA
+f_33,33,0.0,0.0,33,cat__clearance_place_dispatch_PORTO DE SUAPE
+f_38,38,0.0,0.0,38,cat__country_origin_code_116
+f_39,39,0.0,0.0,39,cat__country_origin_code_124
+f_40,40,0.0,0.0,40,cat__country_origin_code_132
+f_41,41,0.0,0.0,41,cat__country_origin_code_137
+f_31,31,0.0,0.0,31,cat__clearance_place_dispatch_PORTO DE SALVADOR
+f_80,80,0.0,0.0,80,num__year
+f_84,84,0.0,0.0,84,num__risk_consignee_name
+f_86,86,0.0,0.0,86,num__risk_ncm_chapter
+f_68,68,0.0,0.0,68,cat__country_origin_code_UNKNOWN
+f_64,64,0.0,0.0,64,cat__country_origin_code_643
+f_55,55,0.0,0.0,55,cat__country_origin_code_361
+f_53,53,0.0,0.0,53,cat__country_origin_code_31
+f_59,59,0.0,0.0,59,cat__country_origin_code_380
+f_52,52,0.0,0.0,52,cat__country_origin_code_275
+f_51,51,0.0,0.0,51,cat__country_origin_code_249
+f_49,49,0.0,0.0,49,cat__country_origin_code_23
+f_50,50,0.0,0.0,50,cat__country_origin_code_246
+f_48,48,0.0,0.0,48,cat__country_origin_code_221
+f_46,46,0.0,0.0,46,cat__country_origin_code_169
+f_45,45,0.0,0.0,45,cat__country_origin_code_160
+f_60,60,0.0,0.0,60,cat__country_origin_code_386
+f_88,88,0.0,0.0,88,num__risk_country_origin_code
+f_79,79,0.0,0.0,79,cat__ncm_chapter_UNKNOWN
+f_66,66,0.0,0.0,66,cat__country_origin_code_84
+f_70,70,0.0,0.0,70,cat__ncm_chapter_29
+f_65,65,0.0,0.0,65,cat__country_origin_code_756
+f_21,21,-0.0006060606060605,0.0012121212121211,21,cat__clearance_place_entry_PORTO DE VITÓRIA
+f_74,74,-0.0006060606060605,0.0012121212121211,74,cat__ncm_chapter_40
+f_67,67,-0.0006060606060605,0.0012121212121211,67,cat__country_origin_code_97
+f_54,54,-0.0012121212121211,0.0014845392380503,54,cat__country_origin_code_356
+f_57,57,-0.0012121212121211,0.0014845392380503,57,cat__country_origin_code_368
+f_8,8,-0.0012121212121211,0.0014845392380503,8,cat__consignee_company_size_DEMAIS
+f_72,72,-0.0018181818181817,0.0014845392380503,72,cat__ncm_chapter_38
+f_11,11,-0.0024242424242423,0.0022676711434993,11,cat__clearance_place_entry_AEROPORTO DE BRASÍLIA
+f_44,44,-0.0030303030303029,0.0,44,cat__country_origin_code_158
+f_3,3,-0.0193939393939393,0.0078085446828637,3,cat__transport_mode_pt_MARITIMA
+f_0,0,-0.029090909090909,0.0056203748457549,0,cat__transport_mode_pt_AEREA

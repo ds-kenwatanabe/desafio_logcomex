@@ -1,0 +1,77 @@
+{
+  "stage_red": {
+    "accuracy": 0.17137683502554485,
+    "report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.16      0.27     15133\n           1       0.02      0.82      0.04       330\n\n    accuracy                           0.17     15463\n   macro avg       0.50      0.49      0.16     15463\nweighted avg       0.96      0.17      0.27     15463\n",
+    "confusion_matrix": [
+      [
+        2378,
+        12755
+      ],
+      [
+        58,
+        272
+      ]
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "red_gate_threshold": 0.49748743718592964,
+    "red_gate_has_proba": true
+  },
+  "stage_yg": {
+    "accuracy": 0.572297520661157,
+    "report_text": "              precision    recall  f1-score   support\n\n           0       0.99      0.57      0.73     14998\n           1       0.01      0.41      0.02       127\n\n    accuracy                           0.57     15125\n   macro avg       0.50      0.49      0.37     15125\nweighted avg       0.98      0.57      0.72     15125\n",
+    "confusion_matrix": [
+      [
+        8604,
+        6394
+      ],
+      [
+        75,
+        52
+      ]
+    ],
+    "labels": [
+      0,
+      1
+    ],
+    "stage_trained": true
+  },
+  "end_to_end": {
+    "accuracy": 0.10534825066287266,
+    "report_text": "              precision    recall  f1-score   support\n\n       VERDE       0.96      0.09      0.16     14998\n     AMARELO       0.01      0.12      0.03       127\n    VERMELHO       0.02      0.82      0.04       330\n       CINZA       0.00      0.00      0.00         8\n\n    accuracy                           0.11     15463\n   macro avg       0.25      0.26      0.06     15463\nweighted avg       0.94      0.11      0.16     15463\n",
+    "confusion_matrix": [
+      [
+        1342,
+        1007,
+        12649,
+        0
+      ],
+      [
+        14,
+        15,
+        98,
+        0
+      ],
+      [
+        35,
+        23,
+        272,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0
+      ]
+    ],
+    "labels": [
+      "VERDE",
+      "AMARELO",
+      "VERMELHO",
+      "CINZA"
+    ]
+  }
+}
