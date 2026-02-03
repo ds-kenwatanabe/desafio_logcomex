@@ -356,14 +356,14 @@ Mas é possível:
 Recomendações mínimas:
 - Monitorar **base-rate** de VERMELHO real e **taxa de alerta** (pred=vermelho)
 - Monitorar FN/FP (quando rótulo chega) e métricas por segmento (NCM/modal/porte)
-- Drift de features: PSI/KS em variáveis-chave + embeddings/encodings
-- Auditoria: logar `red_proba`, `threshold_used`, top features (quando possível)
+- Drift de features: Population Stability Index (PSI) e teste Kolmogorov-Smirnov (KS) em variáveis-chave + embeddings/encodings
+- Auditoria: logar `red_proba`, `threshold_used`, top features
 
 ---
 
 ### 10) Estratégia de retreinamento recomendada
 - Retreinamento periódico (mensal ou bimestral) com janela móvel
-- Recalibração de threshold mais frequente que retreino (ex.: semanal/mensal)
+- Recalibração de threshold mais frequente que retreino (ex.: mensal)
 - Gatilho por drift: se PSI/base-rate ultrapassar limites, antecipar retreino
 
 ---
